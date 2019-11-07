@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+    font-family: "montserrat", "Helvetica", "Arial", sans-serif !important;
+}
+
+/* Some quick font styles */
+
+a, p, h1, h2, h3{
+    color: #fff;
+    text-decoration: none;
+}
+
+#root{
+    background: #000;
+    height: 100%;
+    overflow: auto;
+}
+
+main{
+    background: #000;
+    overflow: hidden;
+    padding-bottom: 20px;
+}

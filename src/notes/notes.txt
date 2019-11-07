@@ -1,0 +1,18 @@
+Order of attack
+
+1. Simple landing page / single page routing set up
+2. Add styling from bootstrap - material-ui (went with material ui)
+3. Redux store set up - to include movies, movie, genres
+4. Write tests for container pages
+5. Write tests for components
+7. Write tests for state
+6. Set up dummy grid page with minimal visual
+7. Set up dummy single page with minimal visual
+8. Get api calls working, 
+   only call if information not already in store - populate pages
+9. Selectors set up
+10. Work on json data for grid page - genres rather than one lump of info
+11. Work on visual
+12. Confirm tests passing
+13. Include written notes in 'notes' section to show thinking
+14. Include notes on future thinking as YAGNI approach for now
