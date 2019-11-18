@@ -10,6 +10,12 @@ const useStyles = makeStyles(() => ({
   title: {
     margin: '15px 0 5px',
   },
+  back: {
+    '&::before': {
+      content: '"\\2190"',
+      paddingRight: '10px',
+    },
+  },
   tagline: {
     margin: '5px 0',
   },
