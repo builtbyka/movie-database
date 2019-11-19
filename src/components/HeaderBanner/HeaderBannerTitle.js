@@ -19,9 +19,12 @@ function HeaderBannerTitle({ home }) {
   );
 }
 
+HeaderBannerTitle.defaultProps = {
+  home: true,
+};
 
 HeaderBannerTitle.propTypes = {
-  home: PropTypes.bool.isRequired,
+  home: PropTypes.bool,
 };
 
 export default HeaderBannerTitle;

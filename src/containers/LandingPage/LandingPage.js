@@ -56,7 +56,7 @@ function LandingPage(props) {
         <HeaderBanner feature={randomFeatureObj} />
         <article>
           {genres.filter((genre) => (genre.movies.length > 3)).map((genre) => (
-            <MovieGenreList key={genre.id}>
+            <MovieGenreList genre={genre} key={genre.id}>
               <MovieList movies={genre.movies} />
             </MovieGenreList>
           ))}
